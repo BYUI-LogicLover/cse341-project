@@ -1,0 +1,25 @@
+{
+  "name": "cse341",
+  "version": "1.0.0",
+  "description": "deploy an api",
+  "homepage": "https://github.com/BYUI-LogicLover/cse341-project#readme",
+  "bugs": {
+    "url": "https://github.com/BYUI-LogicLover/cse341-project/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BYUI-LogicLover/cse341-project.git"
+  },
+  "license": "MIT",
+  "author": "Travis Nelson",
+  "type": "commonjs",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
